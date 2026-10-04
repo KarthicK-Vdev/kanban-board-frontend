@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar-container {
+    border: 2px solid black;
+    width: 200px;
+}
+
+.content-container {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.top-search-bar-container {
+    border: 2px solid black;
+    flex: 0 0 50px;
+}
+
+.navbar-content-container {
+    border: 2px solid black;
+    flex: 1 1 auto;
+}
